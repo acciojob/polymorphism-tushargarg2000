@@ -6,7 +6,7 @@ public class Main {
 
         Product p = new Product();
 
-        int ans = p.product(10,20,30);
+        int ans = p.product(10,20);
 
         int ans1 = p.product(10,20,30);
 
@@ -19,11 +19,11 @@ public class Main {
 
         public int product(int x, int y) {
 
-            return x+y;
+            return x*y;
         }
 
         public int product(int x, int y, int z) {
-            return x+y+x;
+            return x*y*z;
         }
 
 
