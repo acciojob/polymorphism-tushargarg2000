@@ -7,6 +7,11 @@
       <option name="url" value="http://garepos.myntra.com:8080/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="prime-repo" />
       <option name="name" value="prime-repo" />
       <option name="url" value="http://repository.primefaces.org" />
@@ -22,9 +27,19 @@
       <option name="url" value="https://repo1.maven.org/maven2/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="snapshots-artifactory" />
+      <option name="name" value="mynt-snapshots" />
+      <option name="url" value="https://artifactory-ci.myntra.com:443/artifactory/mynt-snapshots" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central-artifactory" />
+      <option name="name" value="mynt-releases" />
+      <option name="url" value="https://artifactory-ci.myntra.com:443/artifactory/mynt-releases" />
     </remote-repository>
   </component>
 </project>
