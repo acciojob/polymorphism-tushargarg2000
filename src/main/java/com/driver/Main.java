@@ -16,7 +16,7 @@ public class Main {
 
 
     }
-    static class Product { //I am making a mistake here and not setting it public
+    public static class Product { //I am making a mistake here and not setting it public
 
         public int product(int x, int y) {
             return x*y;
